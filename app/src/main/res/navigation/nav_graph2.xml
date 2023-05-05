@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/AlbumFragment">
+    <fragment
+        android:id="@+id/AlbumFragment"
+        android:name="com.insurfin.api1.ui.api2_retrofit.AlbumFragment"
+        android:label="fragment_album"
+        tools:layout="@layout/fragment_album" />
+</navigation>

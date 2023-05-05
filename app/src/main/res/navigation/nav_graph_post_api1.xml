@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph5"
+    app:startDestination="@id/postApi1Fragment">
+
+
+    <fragment
+        android:id="@+id/postApi1Fragment"
+        android:name="com.insurfin.api1.ui.api4.PostApi1Fragment"
+        android:label="fragment_post_api_1"
+        tools:layout="@layout/fragment_post_api_1" >
+        <action
+            android:id="@+id/action_postApi1Fragment_to_postApi1DetailFragment"
+            app:destination="@id/postApi1DetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postApi1DetailFragment"
+        android:name="com.insurfin.api1.ui.api4.PostApi1DetailFragment"
+        android:label="fragment_post_api_1_detail"
+        tools:layout="@layout/fragment_post_api_1_detail" />
+</navigation>
